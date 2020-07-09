@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<pages:PopupPage
+    x:Class="TestApp.CustomViews.CustomPopupView"
+    xmlns="http://xamarin.com/schemas/2014/forms"
+    xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+    xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:pages="clr-namespace:Rg.Plugins.Popup.Pages;assembly=Rg.Plugins.Popup"
+    mc:Ignorable="d">
+    <pages:PopupPage.Content>
+        <StackLayout
+            Padding="50"
+            BackgroundColor="Red"
+            HorizontalOptions="Center"
+            VerticalOptions="Center">
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="App Link Mesajınız Var!"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+            <Label
+                HorizontalOptions="CenterAndExpand"
+                Text="{Binding .}"
+                TextColor="White"
+                VerticalOptions="CenterAndExpand" />
+        </StackLayout>
+    </pages:PopupPage.Content>
+</pages:PopupPage>

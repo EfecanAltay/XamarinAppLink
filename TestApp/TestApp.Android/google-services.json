@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "769614594678",
+    "firebase_url": "https://testapp-ba927.firebaseio.com",
+    "project_id": "testapp-ba927",
+    "storage_bucket": "testapp-ba927.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:769614594678:android:2a4a45a847b7cb93b8d557",
+        "android_client_info": {
+          "package_name": "com.javachipgames.testapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "769614594678-36bd68elio48ng1eqiem1npout5f75l8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCR7eNqOKcnvnaXJ3qKAgIO_TVqeDnN2xg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "769614594678-36bd68elio48ng1eqiem1npout5f75l8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
